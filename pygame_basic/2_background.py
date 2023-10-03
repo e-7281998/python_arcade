@@ -11,7 +11,7 @@ screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("파이썬 게임")    #게임 이름
 
 # 배경이미지 불러오기
-background = pygame.image.load("C:/Users/전은정/Desktop/Python/python_arcade/pygame_basic/background.png")
+background = pygame.image.load("/python_arcade/pygame_basic/image/background.png")
 
 # 이벤트 루프
 running = True  #게임이 진행중인가?

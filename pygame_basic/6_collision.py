@@ -90,11 +90,11 @@ while running:
     # 캐릭터가 움직여도 rect정보는 같음. 움직일때 화면상의 정보와 같이 변경해줘야 함.
     # print("character_rect : " , character_rect)
     character_rect.left = character_x_pos
-    character_rect.right = character_y_pos
+    character_rect.top = character_y_pos
 
     enermy_rect = enermy.get_rect()
     enermy_rect.left = enermy_x_pos
-    enermy_rect.right = enermy_y_pos
+    enermy_rect.top = enermy_y_pos
 
     # 충돌 체크
     # colliderect : 사각형 기준으로 충돌이 있었는지 확인하는 함수
